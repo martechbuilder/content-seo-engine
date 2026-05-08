@@ -1,0 +1,16 @@
+{
+  "name": "content-seo-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-assisted content briefs + blog post quality scorer + JSON-LD schema generator",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "brief": "node src/brief.js",
+    "score": "node src/score.js",
+    "schema": "node src/schema.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "jsdom": "^25.0.0"
+  }
+}
